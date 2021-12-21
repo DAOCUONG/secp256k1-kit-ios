@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'Secp256k1Kit.swift'
+  s.name             = 'Secp256k1Kit-Sat.swift'
   s.module_name      = 'Secp256k1Kit'
   s.version          = '1.1'
   s.summary          = 'Crypto secp256k1 library for Swift'
@@ -15,6 +15,7 @@ CryptoSecp256k1 includes crypto functions for signing transactions Swift. It sup
   s.social_media_url = 'http://horizontalsystems.io/'
 
   s.ios.deployment_target = '11.0'
+  s.watchos.deployment_target = '7.0'
   s.swift_version = '5'
 
   s.source_files = ['Secp256k1Kit/Classes/**/*', 'Secp256k1Kit/Libraries/include/*.h']
